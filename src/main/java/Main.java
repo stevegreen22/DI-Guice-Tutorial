@@ -11,7 +11,7 @@ import student.StudentStore;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println( "Welcome to the Registration Database App...");
+        System.out.println( "Welcome to the Registration Database App - .....");
         System.out.println( "Person ID? " );
         Scanner scanner = new Scanner(System.in);
         Integer personId = new Integer( scanner.nextLine() );
