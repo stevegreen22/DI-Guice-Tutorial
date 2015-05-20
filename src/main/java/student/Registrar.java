@@ -5,5 +5,5 @@ package student;
  */
 public interface Registrar {
     boolean checkStudentStatus(Integer studentid);
-    Student registrarStudent(String name, Integer credits);
+    Student registerStudent(String name, Integer credits);
 }

@@ -1,5 +1,6 @@
 package student.register;
 
+import student.Registrar;
 import student.Student;
 import student.StudentStore;
 
@@ -11,7 +12,7 @@ import javax.inject.Singleton;
  */
 
 @Singleton
-public class LenientRegistrar {
+public class LenientRegistrar implements Registrar{
 
     private final StudentStore studentStore;
 
